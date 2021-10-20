@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="test_version_css.css">
+
+	<title>Bootstrap project</title>
+
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+		<div class="container">
+			<a href="" class="navbar-brand">Aston Martin</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+				aria-controls="navbarContent" aria-expanded="false">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="navbar-nav me-auto mb-2">
+				<li class="nav-item">
+					<a href="" class="nav-link">OUR WORLD</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">MODELS</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">OWNERS</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">F1 TEAM</a>
+				</li>
+			</ul>
+
+			<div  class="d-flex">
+				<button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign in</button>
+				<button class="btn btn-outline-danger ms-3">Sign out</button>
+			</div>
+		</div>
+		</div>
+	</nav>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="#exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				
+				<div class="modal-header">
+					<h5 class="modal-title" id="#exampleModalLabel">Form</h5>
+					<button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+				</div>
+
+				<!-- <div class="modal-body">
+					<form>
+						<div class="row  mb-3 my-1">
+							<label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="inputEmail">
+							</div>
+						<div class="row mb-3 my-1">
+							<label for="inputPass" class="col-sm-2 col-form-label">Password</label>
+							<div class="col-sm-10">
+								<input type="password" class="form-control" id="inputPass">
+							</div>
+						</div>
+						<fieldset>
+							<div class="row mb-3">
+								<legend class="col-form-label col-sm-2">Radio</legend>
+								<div class="col-sm-10">
+									<div class="form-check">
+										<input type="radio" class="form-check-input" name="radios" value="option1" id="radios1" checked>
+										<label for="" class="form-check-label">Radio 1</label>
+									</div>
+									<div class="form-check">
+										<input type="radio" class="form-check-input" name="radios" value="option2" id="radios2">
+										<label for="" class="form-check-label">Radio 2</label>
+									</div>
+									<div class="form-check">
+										<input type="radio" class="form-check-input" name="radios" value="option3" id="radios3" disabled>
+										<label for="" class="form-check-label">Radio 3</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="row mb-3">
+								<div class="col-form-label col-sm-2">Checkbox</div>
+								<div class="col-sm-10">
+									<div class="form-check">
+										<input type="checkbox" id="gridCheck" class="form-check-input">
+										<label for="gridCheck" class="form-check-label">Save password</label>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div> -->
+
+				<!-- работает но когда заполняете форму остальной контент исчезает   -->                 
+
+				<div class="modal-footer">
+					<button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button class="btn btn-secondary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main>
+		<div class="carousel slide" id="carouselControls" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="https://wallpapercave.com/wp/wp1931196.jpg">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="https://cdn.motor1.com/images/mgl/02em2/s1/aston-martin-valhalla.jpg">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="https://cdn.motor1.com/images/mgl/kp6LP/s1/2022-aston-martin-db11.jpg">
+				</div>
+				
+			</div>
+
+			<a href="#carouselControls" class="carousel-control-prev" role="button" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a href="#carouselControls" class="carousel-control-next" role="button" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>  
+		</div>
+
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<img class="w-100" src="https://www.motorbiscuit.com/wp-content/uploads/2021/09/James-Bond-Aston-Martin-DB5-1200x885.jpg">
+				</div>
+				<div class="col-md-8 col-sm-12">
+					<h2 class="my-3">Aston martin DB5</h2>
+					<p>Aston Martin DB5 — автомобиль класса GT, выпускавшийся с 1963 по 1965 год английской компанией Aston Martin. Аббревиатура «DB» происходит от инициалов Дэвида Брауна, владельца компании в 1947—1972 годах. Модель известна как один из автомобилей Джеймса Бонда. Всего был выпущен 1021 экземпляр модели DB5.</p>
+				</div>
+			</div>
+			<h2 class="text-center my-5">History</h2>
+			<div class="row gy-5">
+				<div class="col-md-4 col-sm-6 text-center">
+					<h4>ПРОИСХОЖДЕНИЕ</h4>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+  <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+  <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+</svg>
+  					<p>Ведущий в мире дизайн, исключительная инженерия и исключительное мастерство являются центральными элементами идеала Aston Martin, и каждый Aston Martin является его выражением. Новые ресурсы, постоянные инвестиции в лучших специалистов и новейшие средства автоматизированного проектирования и проектирования позволили Aston Martin создавать исключительные автомобили. Познакомьтесь с нашим богатым модельным наследием ниже.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 text-center">
+					<h4>ПРОИСХОЖДЕНИЕ</h4>
+					 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+  					<path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+  					<path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+					</svg> 					
+					<p>Ведущий в мире дизайн, исключительная инженерия и исключительное мастерство являются центральными элементами идеала Aston Martin, и каждый Aston Martin является его выражением. Новые ресурсы, постоянные инвестиции в лучших специалистов и новейшие средства автоматизированного проектирования и проектирования позволили Aston Martin создавать исключительные автомобили. Познакомьтесь с нашим богатым модельным наследием ниже.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 text-center">
+					<h4>ПРОИСХОЖДЕНИЕ</h4>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+ 					 <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+ 					 <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 					1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+					</svg>
+  					<p>Ведущий в мире дизайн, исключительная инженерия и исключительное мастерство являются центральными элементами идеала Aston Martin, и каждый Aston Martin является его выражением. Новые ресурсы, постоянные инвестиции в лучших специалистов и новейшие средства автоматизированного проектирования и проектирования позволили Aston Martin создавать исключительные автомобили. Познакомьтесь с нашим богатым модельным наследием ниже.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 text-center">
+					<h4>ПРОИСХОЖДЕНИЕ</h4>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+  					<path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+  					<path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+					</svg>
+					<p>Ведущий в мире дизайн, исключительная инженерия и исключительное мастерство являются центральными элементами идеала Aston Martin, и каждый Aston Martin является его выражением. Новые ресурсы, постоянные инвестиции в лучших специалистов и новейшие средства автоматизированного проектирования и проектирования позволили Aston Martin создавать исключительные автомобили. Познакомьтесь с нашим богатым модельным наследием ниже.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 text-center">
+					<h4>ПРОИСХОЖДЕНИЕ</h4>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+  					<path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+  					<path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+					</svg>
+					<p>Ведущий в мире дизайн, исключительная инженерия и исключительное мастерство являются центральными элементами идеала Aston Martin, и каждый Aston Martin является его выражением. Новые ресурсы, постоянные инвестиции в лучших специалистов и новейшие средства автоматизированного проектирования и проектирования позволили Aston Martin создавать исключительные автомобили. Познакомьтесь с нашим богатым модельным наследием ниже.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 text-center">
+					<h4>ПРОИСХОЖДЕНИЕ</h4>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+  					<path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+  					<path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+					</svg>
+					<p>Ведущий в мире дизайн, исключительная инженерия и исключительное мастерство являются центральными элементами идеала Aston Martin, и каждый Aston Martin является его выражением. Новые ресурсы, постоянные инвестиции в лучших специалистов и новейшие средства автоматизированного проектирования и проектирования позволили Aston Martin создавать исключительные автомобили. Познакомьтесь с нашим богатым модельным наследием ниже.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+	<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Hyperlinks 
+	<a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Wikipedia</a><br> Absolute link
+	<a href="index.html">Second page</a> <br> Relative link
+	<a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"><img src="3.JPG" alt="WWW" width="200px"></a> Image link  -->
+
+<!-- table
+
+
+	<table border="2">
+		<tr><th>Row One</th><th>Row Two</th><th>Row Three</th></tr>
+		<tr><td rowspan="2">One</td><td>Two</td><td>Three</td></tr>
+		<tr><td>Four</td><td>Five</td></tr>
+		<tr><td rowspan="2">Six</td><td>Seven</td><td>Eight</td></tr>
+		<tr><td>Nine</td><td>Ten</td></tr>
+
+	</table>
+	<br>
+
+	<table border="1">
+		
+		<tr>
+			<th>Child's name:</th><th>Parent's name:</th>
+		</tr>
+		
+		<tr>
+			<td rowspan="2">Catherine</td><td>Michael McCarthy</td>
+		</tr>
+
+		<tr>
+			<td>Collen McCarthy</td>
+		</tr>
+
+		<tr>
+			<td>Maggie</td> <td>Sheila McGee</td>
+		</tr>
+
+		<tr>
+			<td rowspan="2">Edward</td><td>Catherine Howard</td>
+		</tr>
+
+		<tr>
+			<td>Jeff Howard</td>
+		</tr>
+
+	</table>
+-->
+
+
+
+	<!-- video/audio
+	<h1>Video</h1>
+	<video width="400" controls="controls" autoplay="autoplay" loop="loop">
+		<source src="video.mp4" type="video/mp4">
+	</video>
+	<br>
+
+	<h1>Audio</h1>
+	<audio src="audio.mp3" controls="controls">Audio rampampampam</audio> -->
+
+
+
+	<!--font awesome
+	<meta charset="utf-8">
+	<title>My first Page</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	
+	<i class="fab fa-autoprefixer"></i>
+	<i class="fab fa-autoprefixer fa-xs"></i>
+	<i class="fab fa-autoprefixer fa-md"></i>
+	<i class="fab fa-autoprefixer fa-lg"></i>
+	<i class="fab fa-autoprefixer fa-2x"></i>
+	<i class="fab fa-autoprefixer fa-3x"></i>
+	<i class="fab fa-autoprefixer fa-5x"></i>
+	<i class="fab fa-autoprefixer fa-10x"></i>
+
+	<br>
+	<i class="fas fa-address-card fa-5x"></i>
+	<br>
+
+	<a href="http://www.twitter.com" aria-label="Twitter"><i class="fab fa-twitter fa-5x"></i></a>
+	<a href="https://www.pinterest.com" aria-label="Pinterest"><i class="fab fa-pinterest fa-5x"></i></a>
+	<a href="http://linkedin.com" aria-label="Linkedin"><i class="fab fa-linkedin fa-5x"></i></a> -->
+
+
+
+	<!-- image
+		<main><p> THIS IS MY MAIN CODE</p></main>
+	<footer>
+		<p>Think of a more interesting footer</p>
+	</footer>
+
+	<figure>
+		<img src="222.jpg"
+		width="50%" 
+		alt = "deagle">
+		<figcaption>Set image size</figcaption>
+	</figure>
+	-->
